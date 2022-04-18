@@ -1,0 +1,132 @@
+navbar > h1 {
+  font-family: "Heebo";
+  color: #333333;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 53px;
+  width: 100px;
+  margin-left: 52px;
+}
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+ul > li {
+  list-style-type: none;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+a:hover {
+  color: #2d9cdb;
+}
+
+/* Header and Image */
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.unhappy-line {
+  font-family: "Poppins";
+  color: #2d9cdb;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 277px;
+}
+
+header > h1 {
+  width: 543px;
+  height: 144px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  margin-left: 277px;
+}
+
+.image-big {
+  height: 354px;
+}
+
+header > img {
+  border-radius: 18px;
+  width: 95%;
+  height: 100%;
+  margin: 0px auto;
+}
+
+.help-text {
+  font-family: "Poppins";
+  color: #4f4f4f;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 277px;
+  width: 366px;
+}
+
+.contact {
+  margin-left: 277px;
+}
+
+.contact > p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+}
+
+.contact > input {
+  width: 350px;
+  height: 57px;
+  background: #f2f2f2;
+  border-radius: 12px;
+  color: #f2f2f2;
+}
+
+.input-text {
+  color: #bdbdbd;
+  padding-left: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.join-btn {
+  width: 94px;
+  height: 49px;
+  background: #2d9cdb;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f2f2f2;
+}
