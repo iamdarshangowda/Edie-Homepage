@@ -70,11 +70,9 @@ header > h1 {
   height: 354px;
 }
 
-header > img {
+.image-big > img {
   border-radius: 18px;
-  width: 95%;
-  height: 100%;
-  margin: 0px auto;
+  max-width: 100%;
 }
 
 .help-text {
@@ -129,4 +127,80 @@ header > img {
   font-size: 18px;
   line-height: 27px;
   color: #f2f2f2;
+}
+
+.services > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  width: 346px;
+  margin-left: 165px;
+  margin-top: 100px;
+}
+
+.service-lists {
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.ser-list {
+  width: 280px;
+  height: 300px;
+  padding: 40px 20px;
+  border-radius: 16px;
+}
+
+.icons {
+  width: 65px;
+  height: 65px;
+  border: none;
+  border-radius: 14px;
+}
+
+.edit-icon {
+  background: #2d9cdb;
+}
+
+.frontend-icon {
+  background: #27ae60;
+}
+
+.backend-icon {
+  background: #eb5757;
+}
+
+.ser-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.ser-list:hover {
+  box-shadow: 10px 10px 15px #333333, -10px 10px 15px #333333;
+}
+
+.get-started:hover {
+  background: #2d9cdb;
+  color: #ffffff;
+}
+
+.get-started {
+  margin-top: 50px;
+  width: 116px;
+  height: 42px;
+  border: none;
+  border-radius: 12px;
+  background: #e0e0e0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
