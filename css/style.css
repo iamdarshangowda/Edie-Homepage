@@ -204,3 +204,63 @@ header > h1 {
   font-size: 16px;
   line-height: 24px;
 }
+
+.design-image > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  width: 448px;
+  margin-left: 165px;
+}
+
+.design-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box-image {
+  width: 545px;
+}
+.box-image > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+}
+
+.box-image > h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.d-image {
+  border-radius: 16px;
+}
+
+.downside {
+  margin-top: 200px;
+}
+
+.upside {
+  margin-bottom: 200px;
+}
+
+.see-more {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2d9cdb;
+  float: right;
+}
