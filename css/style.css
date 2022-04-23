@@ -474,3 +474,326 @@ footer {
 .footer_link > a {
   color: #f2f2f2;
 }
+
+@media (max-width: 1332px) {
+  header {
+    width: 100%;
+    padding: 0 20px 0 20px;
+    margin: 13px auto 0 auto;
+  }
+
+  .header_nav {
+    width: 600px;
+  }
+
+  main {
+    width: 100%;
+    padding: 0 20px 0 20px;
+    margin: 48px auto 0 auto;
+  }
+
+  .presentation_blue-text {
+    margin-left: 30px;
+  }
+
+  .title {
+    margin: 16px 0 0 30px;
+  }
+  .presentation_img {
+    width: 100%;
+  }
+  .presentation_title-input {
+    margin: 42px 0 0 30px;
+  }
+  .presentation_text-input {
+    margin: 42px 0 0 30px;
+  }
+  .wrap-presentation_input {
+    margin: 42px 0 0 30px;
+  }
+
+  /*? Block - arcticle-services*/
+  .services_title {
+    margin-top: 102px;
+    font-size: 24px;
+  }
+  .wrap-services-card {
+    padding-left: 0;
+  }
+
+  /*? Block - arcticle-design*/
+  .arcticle-design {
+    width: 100%;
+    margin-top: 103px;
+  }
+  .design_title {
+    width: 267px;
+    font-size: 24px;
+    margin: 0 auto;
+  }
+  .design-card {
+    margin-top: 0;
+    margin-bottom: 36px;
+    margin: 0 0 36px 0;
+  }
+
+  /*? Block - arcticle-team*/
+  .arcticle-team {
+    margin: 100px auto 0 auto;
+  }
+
+  /*? Block - arcticle-feedback*/
+  .arcticle-feedback {
+    width: 937px;
+    margin: 100px auto 0 auto;
+  }
+
+  /*? Block - footer*/
+  footer {
+    margin-top: 100px;
+  }
+  .wrap-footer-content {
+    width: 1090px;
+  }
+}
+
+@media (max-width: 1090px) {
+  /*? Block - arcticle-services*/
+  .services_title {
+    width: 259px;
+    margin: 102px auto 0 auto;
+  }
+  .wrap-services-card {
+    flex-wrap: wrap;
+  }
+  .card-service {
+    margin-bottom: 75px;
+  }
+  .wrap-design-card {
+    margin-top: 48px;
+  }
+
+  /*? Block - arcticle-team*/
+  .arcticle-team {
+    width: 100%;
+  }
+  .team-info {
+    margin-top: 0;
+  }
+  .team-photo {
+    width: 350px;
+    height: 321px;
+  }
+  .woman {
+    width: 178px;
+    top: 64px;
+  }
+  .man-top {
+    width: 145px;
+    right: 17px;
+  }
+  .man-bottom {
+    width: 162px;
+    top: 153px;
+  }
+
+  /*? Block - arcticle-feedback*/
+  .feedback-text,
+  .arcticle-feedback {
+    width: 100%;
+  }
+
+  /*? Block - footer*/
+  footer {
+    padding-left: 20px;
+  }
+  .wrap-footer-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    padding: 0 20px 0 20px;
+    margin: 13px auto 0 auto;
+  }
+  .logo {
+    z-index: 200;
+  }
+
+  .header_nav {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+  }
+  .header_nav {
+    display: none;
+  }
+  .header_item {
+    margin-top: 15px;
+  }
+  .burger {
+    width: 28.5px;
+    height: 20px;
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .line {
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: #000000;
+  }
+  #menu-toggle:checked ~ .burger > .line:nth-of-type(1) {
+    display: none;
+  }
+  #menu-toggle:checked ~ .burger > .line:nth-of-type(3) {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 6px;
+  }
+  #menu-toggle:checked ~ .burger > .line:nth-of-type(2) {
+    transform: rotate(135deg);
+    position: absolute;
+    top: 6px;
+  }
+  #menu-toggle:checked ~ .burger {
+    z-index: 200;
+  }
+  #menu-toggle:checked ~ .header_nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    text-align: center;
+  }
+  main {
+    padding: 0 10px 0 10px;
+  }
+
+  /*? Block - arcticle-presentation*/
+  .presentation_blue-text {
+    font-size: 12px;
+  }
+  .title {
+    width: calc(100% - 40px);
+    font-size: 24px;
+  }
+  .presentation_img {
+    margin-top: 15px;
+  }
+  .presentation_title-input {
+    width: calc(100% - 30px);
+    font-size: 24px;
+  }
+  .presentation_text-input {
+    width: 275px;
+    font-size: 12px;
+  }
+  .presentation_input_label {
+    font-size: 10px;
+  }
+  .presentation_input {
+    width: 291px;
+    height: 47px;
+    font-size: 14px;
+    padding: 0 85px 0 21px;
+  }
+  .presentation_input::placeholder {
+    font-size: 14px;
+  }
+  .presentation_input_btn {
+    width: 71px;
+    height: 39px;
+    font-size: 14px;
+    top: 32px;
+    right: 80px;
+  }
+  .arcticle-team {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-photo {
+    margin-top: 36px;
+  }
+  footer {
+    padding-left: 0;
+    min-height: 714px;
+    padding-top: 0;
+  }
+  .wrap-footer-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer_nav {
+    width: 92px;
+    margin-top: 36px;
+    margin-left: 41px;
+  }
+  .footer_contacts {
+    margin-top: 64px;
+    margin-left: 41px;
+  }
+  .footer_input {
+    margin: 65px 0 0 0;
+    margin-left: 41px;
+  }
+  .footer_link {
+    margin-top: 154px;
+  }
+}
+
+@media (max-width: 377px) {
+  .title {
+    width: 272px;
+    margin-top: 0;
+  }
+  .presentation_title-input {
+    width: 227px;
+    margin-top: 22px;
+  }
+  .presentation_text-input {
+    margin-top: 33px;
+  }
+  .wrap-presentation_input {
+    width: 291px;
+    margin-top: 31px;
+  }
+  .presentation_input {
+    margin-top: 0px;
+    padding: 0 85px 0 10px;
+  }
+  .presentation_input_btn {
+    top: 23px;
+    right: 5px;
+  }
+
+  /*? Block - arcticle-design*/
+  .design-card_small-text {
+    font-size: 12px;
+  }
+  .design-card_big-text {
+    font-size: 18px;
+  }
+  .arrow-see {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  /*? Block - arcticle-feedback*/
+  .feedback-text {
+    font-size: 24px;
+    margin-bottom: 31px;
+  }
+}
